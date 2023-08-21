@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+#banner{
+    width: 100%;
+    background-size:cover ;
+    background-image:url(linkedin.jpeg) 
+}
+
+#nav {
+    float: left;
+    font-family: Arial ;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    background-size:cover ;
+    background-position: center;
+    background-image:url(cinnamon-lakeside-colombo-logo-vector-xs.png) 
+
+}
+
