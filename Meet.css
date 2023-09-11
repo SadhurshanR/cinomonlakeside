@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+li, a, button {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: flex;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+   
+}
+.navbar {
+    list-style: none;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color:blue 
+}
+button{
+    padding: 25px 25px;
+    background-color: rgb(167, 198, 249);
+    cursor: pointer;
+    /*border: none;*/
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    margin-right: 30px;
+   
+}
+button:hover{
+    background-color: rgb(0, 149, 255);
+}
